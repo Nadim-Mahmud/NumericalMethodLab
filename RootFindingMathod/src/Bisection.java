@@ -11,6 +11,8 @@ public class Bisection {
 	}
 
     public double bisection() {
+    	
+    	System.out.println("Bisection Method : \n");
    
         double mid=0,a,b,tollerence = 0.0001;
         
@@ -25,7 +27,7 @@ public class Bisection {
         	 cn ++;
              mid = (a+b)/2.0;
                  
-             System.out.println("upper : "+a+" Lower : "+ b + " Mid : "+mid+" Tolerence : "+Math.abs(a-b));
+            // System.out.println("upper : "+a+" Lower : "+ b + " Mid : "+mid+" Tolerence : "+Math.abs(a-b));
                  
              if(Math.abs(eq.equation(mid)-0.0)<=tollerence) break;
              if(eq.equation(mid)<0) b = mid;
