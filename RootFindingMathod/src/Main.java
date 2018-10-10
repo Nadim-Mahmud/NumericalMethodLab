@@ -2,11 +2,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        
         Bisection BS = new Bisection();
         IterationMathod it = new IterationMathod();
         SecantMathod sc = new SecantMathod();
-       // double ans = ;
+        NewtonRapson nr = new NewtonRapson();
         
         System.out.println("Root : " + BS.bisection());
         System.out.println("Number of iteration : " + BS.getIteration());
@@ -16,5 +16,8 @@ public class Main {
         
         System.out.println("\n\nSecant Mathod-->");
         System.out.println("Root : " + sc.secant());
+        
+        System.out.println("\n\nNewtonRapson Mathod-->");
+        System.out.println("Root : " + nr.newton());
     }
 }
