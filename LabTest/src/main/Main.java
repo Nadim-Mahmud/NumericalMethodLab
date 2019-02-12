@@ -4,12 +4,11 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		System.out.print("Bisection Methods Result : ");
-		System.out.println(new BisectionMethod().bisection());
+		System.out.println("Bisection Methods Result : " + new BisectionMethod().bisection());
 		
-		System.out.print("FalsePostion Methods Result : ");
-		System.out.println(new FalsePostionMethod().falsePostion());
+		System.out.println("FalsePostion Methods Result :" + new FalsePostionMethod().falsePostion());
 
+		System.out.println("NewtonRaphson Methods Result :" + new NewtonRaphsonMethod().newton()); 
 	}
 
 }
