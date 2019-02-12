@@ -1,4 +1,4 @@
-package main;
+package rootFindingMethods;
 
 public class NewtonRaphsonMethod {
 	
