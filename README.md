@@ -1,1 +1,2 @@
-# Numerical Method Lab Code will be add to this repo
+# Don't directly Copy paste. try to recode and understand where you don't.
+# Use it only for learning perposes. :)
