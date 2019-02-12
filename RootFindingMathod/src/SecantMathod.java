@@ -25,7 +25,7 @@ public class SecantMathod {
 			x1 = x2;
 			x2 = x0;
 			cn++;
-			///System.out.println(x1 + " " + x2);
+			//System.out.println(x1 + " " + x2);
 		}
 		System.out.println(cn);
 		
